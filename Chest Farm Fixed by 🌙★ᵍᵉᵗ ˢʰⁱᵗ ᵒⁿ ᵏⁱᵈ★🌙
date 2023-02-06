@@ -1,0 +1,11 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+OrionLib:MakeNotification({
+	Name = "Chest farm",
+	Content = "Script made by 🌙★ᵍᵉᵗ ˢʰⁱᵗ ᵒⁿ ᵏⁱᵈ★🌙#7506",
+	Image = "rbxassetid://4483345998",
+	Time = 1000000000000000000000000
+})
+while wait(0.01) do
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Chest2.CFrame
+end
